@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+         @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: ease 3s;
+            }
+        }
+
+        .animated-text {
+            animation: slideInFromLeft 1s ease-in-out;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 75px;
+        }
+
+        nav {
+            background-color: #361707;
+            padding: 10px;
+        }
+
+        .nav-link {
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            color: #ffc107;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        footer a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav nav-pills flex-column flex-sm-row justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="produit.html">Produits</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="apropos.html">Apropos</a>
+            </li>
+        </ul>
+        
+    </nav>
+
+<h1><strong>Des produits hautes games</strong></h1>
+<p class="animated-text" style=" text-align: center;
+color: #343a40;
+font-size: 36px;
+font-weight: bold;
+margin-top: 30px;">Observez la qualitée de nos services</p>
+<br><br>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+    <video src="image\video1.mp4" controls>
+    </video>
+    <p style="margin-left: 15px; color: red;"><span ><strong>Prix: 75.000 F.cfa</strong><br><br><strong>Prime: Payable en 3 Mois</strong></span><input type="radio" name="taux" >
+        <span ><br><strong>Achats-prenuim: -15.000 F.cfa/Prix</strong></span><input type="radio" name="taux" ></p>
+    </div>
+    <br><br>
+    <div class="d-flex justify-content-center">
+    <video src="image\video2.mp4" controls>
+    </video>
+    <p style="margin-left: 15px;  color: red;"><span ><strong>Prix: 75.000 F.cfa</strong><br><br><strong>Prime: Payable en 3 Mois</strong></span><input type="radio" name="taux" >
+        <span ><br><strong>Achats-prenuim: -15.000 F.cfa/Prix</strong></span><input type="radio" name="taux" ></p>
+</div>
+    <br><br>
+    <div class="d-flex justify-content-center">
+    <video src="image\video3.mp4" controls>
+    </video>
+    <p style="margin-left: 15px; color: red;"><span ><strong>Prix: 75.000 F.cfa</strong><br><br><strong>Prime: Payable en 3 Mois</strong></span><input type="radio" name="taux" >
+        <span ><br><strong>Achats-prenuim: -15.000 F.cfa/Prix</strong></span><input type="radio" name="taux" ></p>
+</div>
+
+<div class="text-center">
+    <a href="https://wa.me/+22657244004" class="btn btn-primary">Validez votre choix</a>
+</div>
+            <br><br>
+
+    <footer class="text-center mt-5" style="background-color: black; color: white;">
+    <h1><strong>CONTACTEZ-NOUS</strong></h1>
+    
+    Contact:+226 57-24-40-04
+    <a href="https://wa.me/+22657244004"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/nomdelapage"><i class="fab fa-facebook"></i></a>
+<br><br>
+    <p>&copy; 2023 Votre entreprise de cuisine. Tous droits réservés.</p>
+</footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
